@@ -1,0 +1,4770 @@
+{
+  "schema": "depibeans.experiment-plan/1",
+  "name": "Enterprise_(2024-11-25T20.11.17GMT-0500)",
+  "hardware_execution_authorized": false,
+  "events": [
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "500",
+      "sequence": 0,
+      "delay_ms": 0,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 1,
+      "delay_ms": 10000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 2,
+      "delay_ms": 10210000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0fm",
+      "analysis": "f0fm",
+      "sequence": 3,
+      "delay_ms": 32340000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 4,
+      "delay_ms": 32400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 5,
+      "delay_ms": 33953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 6,
+      "delay_ms": 34013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 7,
+      "delay_ms": 34014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 8,
+      "delay_ms": 34020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 9,
+      "delay_ms": 34021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 10,
+      "delay_ms": 34103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 11,
+      "delay_ms": 34148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 12,
+      "delay_ms": 34154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 13,
+      "delay_ms": 34155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "10",
+      "sequence": 14,
+      "delay_ms": 34200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 15,
+      "delay_ms": 35753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 16,
+      "delay_ms": 35813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 17,
+      "delay_ms": 35814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 18,
+      "delay_ms": 35820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 19,
+      "delay_ms": 35821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 20,
+      "delay_ms": 35903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 21,
+      "delay_ms": 35948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 22,
+      "delay_ms": 35954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 23,
+      "delay_ms": 35955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "10",
+      "sequence": 24,
+      "delay_ms": 36000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 25,
+      "delay_ms": 37553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 26,
+      "delay_ms": 37613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 27,
+      "delay_ms": 37614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 28,
+      "delay_ms": 37620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 29,
+      "delay_ms": 37621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 30,
+      "delay_ms": 37703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 31,
+      "delay_ms": 37748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 32,
+      "delay_ms": 37754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 33,
+      "delay_ms": 37755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "15",
+      "sequence": 34,
+      "delay_ms": 37800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 35,
+      "delay_ms": 39353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 36,
+      "delay_ms": 39413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 37,
+      "delay_ms": 39414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 38,
+      "delay_ms": 39420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 39,
+      "delay_ms": 39421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 40,
+      "delay_ms": 39503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 41,
+      "delay_ms": 39548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 42,
+      "delay_ms": 39554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 43,
+      "delay_ms": 39555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "20",
+      "sequence": 44,
+      "delay_ms": 39600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 45,
+      "delay_ms": 41153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 46,
+      "delay_ms": 41213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 47,
+      "delay_ms": 41214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 48,
+      "delay_ms": 41220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 49,
+      "delay_ms": 41221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 50,
+      "delay_ms": 41303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 51,
+      "delay_ms": 41348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 52,
+      "delay_ms": 41354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 53,
+      "delay_ms": 41355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "30",
+      "sequence": 54,
+      "delay_ms": 41400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 55,
+      "delay_ms": 42953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 56,
+      "delay_ms": 43013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 57,
+      "delay_ms": 43014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 58,
+      "delay_ms": 43020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 59,
+      "delay_ms": 43021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 60,
+      "delay_ms": 43103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 61,
+      "delay_ms": 43148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 62,
+      "delay_ms": 43154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 63,
+      "delay_ms": 43155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "40",
+      "sequence": 64,
+      "delay_ms": 43200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 65,
+      "delay_ms": 44753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 66,
+      "delay_ms": 44813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 67,
+      "delay_ms": 44814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 68,
+      "delay_ms": 44820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 69,
+      "delay_ms": 44821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 70,
+      "delay_ms": 44903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 71,
+      "delay_ms": 44948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 72,
+      "delay_ms": 44954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 73,
+      "delay_ms": 44955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "50",
+      "sequence": 74,
+      "delay_ms": 45000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 75,
+      "delay_ms": 46553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 76,
+      "delay_ms": 46613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 77,
+      "delay_ms": 46614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 78,
+      "delay_ms": 46620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 79,
+      "delay_ms": 46621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 80,
+      "delay_ms": 46703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 81,
+      "delay_ms": 46748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 82,
+      "delay_ms": 46754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 83,
+      "delay_ms": 46755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 84,
+      "delay_ms": 46800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 85,
+      "delay_ms": 48353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 86,
+      "delay_ms": 48413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 87,
+      "delay_ms": 48414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 88,
+      "delay_ms": 48420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 89,
+      "delay_ms": 48421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 90,
+      "delay_ms": 48503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 91,
+      "delay_ms": 48548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 92,
+      "delay_ms": 48554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 93,
+      "delay_ms": 48555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 94,
+      "delay_ms": 48600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 95,
+      "delay_ms": 50153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 96,
+      "delay_ms": 50213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 97,
+      "delay_ms": 50214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 98,
+      "delay_ms": 50220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 99,
+      "delay_ms": 50221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 100,
+      "delay_ms": 50303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 101,
+      "delay_ms": 50348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 102,
+      "delay_ms": 50354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 103,
+      "delay_ms": 50355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "600",
+      "sequence": 104,
+      "delay_ms": 50400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 105,
+      "delay_ms": 51953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 106,
+      "delay_ms": 52013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 107,
+      "delay_ms": 52014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 108,
+      "delay_ms": 52020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 109,
+      "delay_ms": 52021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 110,
+      "delay_ms": 52103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 111,
+      "delay_ms": 52148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 112,
+      "delay_ms": 52154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 113,
+      "delay_ms": 52155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 114,
+      "delay_ms": 52200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 115,
+      "delay_ms": 53753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 116,
+      "delay_ms": 53813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 117,
+      "delay_ms": 53814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 118,
+      "delay_ms": 53820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 119,
+      "delay_ms": 53821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 120,
+      "delay_ms": 53903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 121,
+      "delay_ms": 53948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 122,
+      "delay_ms": 53954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 123,
+      "delay_ms": 53955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 124,
+      "delay_ms": 54000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 125,
+      "delay_ms": 55553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 126,
+      "delay_ms": 55613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 127,
+      "delay_ms": 55614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 128,
+      "delay_ms": 55620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 129,
+      "delay_ms": 55621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 130,
+      "delay_ms": 55703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 131,
+      "delay_ms": 55748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 132,
+      "delay_ms": 55754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 133,
+      "delay_ms": 55755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 134,
+      "delay_ms": 55800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 135,
+      "delay_ms": 57353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 136,
+      "delay_ms": 57413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 137,
+      "delay_ms": 57414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 138,
+      "delay_ms": 57420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 139,
+      "delay_ms": 57421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 140,
+      "delay_ms": 57503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 141,
+      "delay_ms": 57548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 142,
+      "delay_ms": 57554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 143,
+      "delay_ms": 57555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 144,
+      "delay_ms": 57600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 145,
+      "delay_ms": 59153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 146,
+      "delay_ms": 59213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 147,
+      "delay_ms": 59214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 148,
+      "delay_ms": 59220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 149,
+      "delay_ms": 59221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 150,
+      "delay_ms": 59303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 151,
+      "delay_ms": 59348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 152,
+      "delay_ms": 59354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 153,
+      "delay_ms": 59355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "600",
+      "sequence": 154,
+      "delay_ms": 59400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 155,
+      "delay_ms": 60953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 156,
+      "delay_ms": 61013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 157,
+      "delay_ms": 61014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 158,
+      "delay_ms": 61020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 159,
+      "delay_ms": 61021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 160,
+      "delay_ms": 61103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 161,
+      "delay_ms": 61148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 162,
+      "delay_ms": 61154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 163,
+      "delay_ms": 61155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 164,
+      "delay_ms": 61200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 165,
+      "delay_ms": 62753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 166,
+      "delay_ms": 62813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 167,
+      "delay_ms": 62814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 168,
+      "delay_ms": 62820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 169,
+      "delay_ms": 62821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 170,
+      "delay_ms": 62903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 171,
+      "delay_ms": 62948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 172,
+      "delay_ms": 62954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 173,
+      "delay_ms": 62955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 174,
+      "delay_ms": 63000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 175,
+      "delay_ms": 64553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 176,
+      "delay_ms": 64613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 177,
+      "delay_ms": 64614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 178,
+      "delay_ms": 64620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 179,
+      "delay_ms": 64621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 180,
+      "delay_ms": 64703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 181,
+      "delay_ms": 64748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 182,
+      "delay_ms": 64754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 183,
+      "delay_ms": 64755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 184,
+      "delay_ms": 64800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 185,
+      "delay_ms": 66353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 186,
+      "delay_ms": 66413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 187,
+      "delay_ms": 66414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 188,
+      "delay_ms": 66420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 189,
+      "delay_ms": 66421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 190,
+      "delay_ms": 66503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 191,
+      "delay_ms": 66548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 192,
+      "delay_ms": 66554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 193,
+      "delay_ms": 66555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 194,
+      "delay_ms": 66600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 195,
+      "delay_ms": 68153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 196,
+      "delay_ms": 68213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 197,
+      "delay_ms": 68214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 198,
+      "delay_ms": 68220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 199,
+      "delay_ms": 68221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 200,
+      "delay_ms": 68303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 201,
+      "delay_ms": 68348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 202,
+      "delay_ms": 68354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 203,
+      "delay_ms": 68355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "600",
+      "sequence": 204,
+      "delay_ms": 68400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 205,
+      "delay_ms": 69953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 206,
+      "delay_ms": 70013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 207,
+      "delay_ms": 70014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 208,
+      "delay_ms": 70020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 209,
+      "delay_ms": 70021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 210,
+      "delay_ms": 70103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 211,
+      "delay_ms": 70148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 212,
+      "delay_ms": 70154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 213,
+      "delay_ms": 70155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 214,
+      "delay_ms": 70200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 215,
+      "delay_ms": 71753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 216,
+      "delay_ms": 71813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 217,
+      "delay_ms": 71814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 218,
+      "delay_ms": 71820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 219,
+      "delay_ms": 71821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 220,
+      "delay_ms": 71903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 221,
+      "delay_ms": 71948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 222,
+      "delay_ms": 71954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 223,
+      "delay_ms": 71955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 224,
+      "delay_ms": 72000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 225,
+      "delay_ms": 73553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 226,
+      "delay_ms": 73613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 227,
+      "delay_ms": 73614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 228,
+      "delay_ms": 73620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 229,
+      "delay_ms": 73621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 230,
+      "delay_ms": 73703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 231,
+      "delay_ms": 73748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 232,
+      "delay_ms": 73754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 233,
+      "delay_ms": 73755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 234,
+      "delay_ms": 73800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 235,
+      "delay_ms": 75353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 236,
+      "delay_ms": 75413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 237,
+      "delay_ms": 75414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 238,
+      "delay_ms": 75420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 239,
+      "delay_ms": 75421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 240,
+      "delay_ms": 75503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 241,
+      "delay_ms": 75548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 242,
+      "delay_ms": 75554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 243,
+      "delay_ms": 75555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "50",
+      "sequence": 244,
+      "delay_ms": 75600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 245,
+      "delay_ms": 77153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 246,
+      "delay_ms": 77213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 247,
+      "delay_ms": 77214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 248,
+      "delay_ms": 77220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 249,
+      "delay_ms": 77221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 250,
+      "delay_ms": 77303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 251,
+      "delay_ms": 77348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 252,
+      "delay_ms": 77354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 253,
+      "delay_ms": 77355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "20",
+      "sequence": 254,
+      "delay_ms": 77400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 255,
+      "delay_ms": 78953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 256,
+      "delay_ms": 79013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 257,
+      "delay_ms": 79014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 258,
+      "delay_ms": 79020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 259,
+      "delay_ms": 79021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 260,
+      "delay_ms": 79103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 261,
+      "delay_ms": 79148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 262,
+      "delay_ms": 79154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 263,
+      "delay_ms": 79155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "10",
+      "sequence": 264,
+      "delay_ms": 79200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 265,
+      "delay_ms": 80753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 266,
+      "delay_ms": 80813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 267,
+      "delay_ms": 80814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 268,
+      "delay_ms": 80820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 269,
+      "delay_ms": 80821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 270,
+      "delay_ms": 80903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 271,
+      "delay_ms": 80948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 272,
+      "delay_ms": 80954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 273,
+      "delay_ms": 80955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 274,
+      "delay_ms": 81000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 275,
+      "delay_ms": 82553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 276,
+      "delay_ms": 82613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 277,
+      "delay_ms": 82614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 278,
+      "delay_ms": 82620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 279,
+      "delay_ms": 82621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 280,
+      "delay_ms": 82703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 281,
+      "delay_ms": 82748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 282,
+      "delay_ms": 82754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 283,
+      "delay_ms": 82755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 284,
+      "delay_ms": 82800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0fm",
+      "analysis": "f0fm",
+      "sequence": 285,
+      "delay_ms": 118740000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 286,
+      "delay_ms": 118800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 287,
+      "delay_ms": 120353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 288,
+      "delay_ms": 120413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 289,
+      "delay_ms": 120414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 290,
+      "delay_ms": 120420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 291,
+      "delay_ms": 120421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 292,
+      "delay_ms": 120503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 293,
+      "delay_ms": 120548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 294,
+      "delay_ms": 120554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 295,
+      "delay_ms": 120555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "10",
+      "sequence": 296,
+      "delay_ms": 120600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 297,
+      "delay_ms": 122153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 298,
+      "delay_ms": 122213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 299,
+      "delay_ms": 122214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 300,
+      "delay_ms": 122220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 301,
+      "delay_ms": 122221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 302,
+      "delay_ms": 122303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 303,
+      "delay_ms": 122348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 304,
+      "delay_ms": 122354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 305,
+      "delay_ms": 122355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "10",
+      "sequence": 306,
+      "delay_ms": 122400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 307,
+      "delay_ms": 123953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 308,
+      "delay_ms": 124013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 309,
+      "delay_ms": 124014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 310,
+      "delay_ms": 124020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 311,
+      "delay_ms": 124021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 312,
+      "delay_ms": 124103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 313,
+      "delay_ms": 124148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 314,
+      "delay_ms": 124154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 315,
+      "delay_ms": 124155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "15",
+      "sequence": 316,
+      "delay_ms": 124200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 317,
+      "delay_ms": 125753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 318,
+      "delay_ms": 125813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 319,
+      "delay_ms": 125814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 320,
+      "delay_ms": 125820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 321,
+      "delay_ms": 125821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 322,
+      "delay_ms": 125903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 323,
+      "delay_ms": 125948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 324,
+      "delay_ms": 125954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 325,
+      "delay_ms": 125955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "20",
+      "sequence": 326,
+      "delay_ms": 126000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 327,
+      "delay_ms": 127553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 328,
+      "delay_ms": 127613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 329,
+      "delay_ms": 127614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 330,
+      "delay_ms": 127620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 331,
+      "delay_ms": 127621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 332,
+      "delay_ms": 127703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 333,
+      "delay_ms": 127748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 334,
+      "delay_ms": 127754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 335,
+      "delay_ms": 127755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "30",
+      "sequence": 336,
+      "delay_ms": 127800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 337,
+      "delay_ms": 129353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 338,
+      "delay_ms": 129413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 339,
+      "delay_ms": 129414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 340,
+      "delay_ms": 129420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 341,
+      "delay_ms": 129421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 342,
+      "delay_ms": 129503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 343,
+      "delay_ms": 129548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 344,
+      "delay_ms": 129554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 345,
+      "delay_ms": 129555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "40",
+      "sequence": 346,
+      "delay_ms": 129600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 347,
+      "delay_ms": 131153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 348,
+      "delay_ms": 131213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 349,
+      "delay_ms": 131214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 350,
+      "delay_ms": 131220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 351,
+      "delay_ms": 131221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 352,
+      "delay_ms": 131303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 353,
+      "delay_ms": 131348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 354,
+      "delay_ms": 131354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 355,
+      "delay_ms": 131355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "50",
+      "sequence": 356,
+      "delay_ms": 131400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 357,
+      "delay_ms": 132953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 358,
+      "delay_ms": 133013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 359,
+      "delay_ms": 133014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 360,
+      "delay_ms": 133020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 361,
+      "delay_ms": 133021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 362,
+      "delay_ms": 133103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 363,
+      "delay_ms": 133148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 364,
+      "delay_ms": 133154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 365,
+      "delay_ms": 133155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 366,
+      "delay_ms": 133200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 367,
+      "delay_ms": 134753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 368,
+      "delay_ms": 134813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 369,
+      "delay_ms": 134814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 370,
+      "delay_ms": 134820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 371,
+      "delay_ms": 134821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 372,
+      "delay_ms": 134903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 373,
+      "delay_ms": 134948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 374,
+      "delay_ms": 134954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 375,
+      "delay_ms": 134955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 376,
+      "delay_ms": 135000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 377,
+      "delay_ms": 136553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 378,
+      "delay_ms": 136613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 379,
+      "delay_ms": 136614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 380,
+      "delay_ms": 136620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 381,
+      "delay_ms": 136621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 382,
+      "delay_ms": 136703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 383,
+      "delay_ms": 136748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 384,
+      "delay_ms": 136754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 385,
+      "delay_ms": 136755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "600",
+      "sequence": 386,
+      "delay_ms": 136800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 387,
+      "delay_ms": 138353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 388,
+      "delay_ms": 138413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 389,
+      "delay_ms": 138414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 390,
+      "delay_ms": 138420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 391,
+      "delay_ms": 138421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 392,
+      "delay_ms": 138503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 393,
+      "delay_ms": 138548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 394,
+      "delay_ms": 138554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 395,
+      "delay_ms": 138555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 396,
+      "delay_ms": 138600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 397,
+      "delay_ms": 140153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 398,
+      "delay_ms": 140213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 399,
+      "delay_ms": 140214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 400,
+      "delay_ms": 140220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 401,
+      "delay_ms": 140221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 402,
+      "delay_ms": 140303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 403,
+      "delay_ms": 140348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 404,
+      "delay_ms": 140354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 405,
+      "delay_ms": 140355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 406,
+      "delay_ms": 140400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 407,
+      "delay_ms": 141953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 408,
+      "delay_ms": 142013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 409,
+      "delay_ms": 142014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 410,
+      "delay_ms": 142020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 411,
+      "delay_ms": 142021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 412,
+      "delay_ms": 142103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 413,
+      "delay_ms": 142148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 414,
+      "delay_ms": 142154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 415,
+      "delay_ms": 142155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 416,
+      "delay_ms": 142200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 417,
+      "delay_ms": 143753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 418,
+      "delay_ms": 143813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 419,
+      "delay_ms": 143814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 420,
+      "delay_ms": 143820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 421,
+      "delay_ms": 143821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 422,
+      "delay_ms": 143903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 423,
+      "delay_ms": 143948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 424,
+      "delay_ms": 143954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 425,
+      "delay_ms": 143955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 426,
+      "delay_ms": 144000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 427,
+      "delay_ms": 145553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 428,
+      "delay_ms": 145613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 429,
+      "delay_ms": 145614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 430,
+      "delay_ms": 145620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 431,
+      "delay_ms": 145621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 432,
+      "delay_ms": 145703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 433,
+      "delay_ms": 145748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 434,
+      "delay_ms": 145754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 435,
+      "delay_ms": 145755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "600",
+      "sequence": 436,
+      "delay_ms": 145800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 437,
+      "delay_ms": 147353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 438,
+      "delay_ms": 147413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 439,
+      "delay_ms": 147414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 440,
+      "delay_ms": 147420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 441,
+      "delay_ms": 147421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 442,
+      "delay_ms": 147503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 443,
+      "delay_ms": 147548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 444,
+      "delay_ms": 147554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 445,
+      "delay_ms": 147555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 446,
+      "delay_ms": 147600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 447,
+      "delay_ms": 149153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 448,
+      "delay_ms": 149213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 449,
+      "delay_ms": 149214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 450,
+      "delay_ms": 149220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 451,
+      "delay_ms": 149221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 452,
+      "delay_ms": 149303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 453,
+      "delay_ms": 149348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 454,
+      "delay_ms": 149354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 455,
+      "delay_ms": 149355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 456,
+      "delay_ms": 149400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 457,
+      "delay_ms": 150953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 458,
+      "delay_ms": 151013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 459,
+      "delay_ms": 151014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 460,
+      "delay_ms": 151020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 461,
+      "delay_ms": 151021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 462,
+      "delay_ms": 151103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 463,
+      "delay_ms": 151148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 464,
+      "delay_ms": 151154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 465,
+      "delay_ms": 151155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 466,
+      "delay_ms": 151200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 467,
+      "delay_ms": 152753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 468,
+      "delay_ms": 152813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 469,
+      "delay_ms": 152814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 470,
+      "delay_ms": 152820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 471,
+      "delay_ms": 152821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 472,
+      "delay_ms": 152903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 473,
+      "delay_ms": 152948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 474,
+      "delay_ms": 152954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 475,
+      "delay_ms": 152955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 476,
+      "delay_ms": 153000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 477,
+      "delay_ms": 154553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 478,
+      "delay_ms": 154613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 479,
+      "delay_ms": 154614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 480,
+      "delay_ms": 154620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 481,
+      "delay_ms": 154621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 482,
+      "delay_ms": 154703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 483,
+      "delay_ms": 154748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 484,
+      "delay_ms": 154754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 485,
+      "delay_ms": 154755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "600",
+      "sequence": 486,
+      "delay_ms": 154800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 487,
+      "delay_ms": 156353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 488,
+      "delay_ms": 156413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 489,
+      "delay_ms": 156414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 490,
+      "delay_ms": 156420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 491,
+      "delay_ms": 156421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 492,
+      "delay_ms": 156503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 493,
+      "delay_ms": 156548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 494,
+      "delay_ms": 156554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 495,
+      "delay_ms": 156555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "400",
+      "sequence": 496,
+      "delay_ms": 156600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 497,
+      "delay_ms": 158153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 498,
+      "delay_ms": 158213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 499,
+      "delay_ms": 158214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 500,
+      "delay_ms": 158220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 501,
+      "delay_ms": 158221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 502,
+      "delay_ms": 158303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 503,
+      "delay_ms": 158348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 504,
+      "delay_ms": 158354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 505,
+      "delay_ms": 158355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "200",
+      "sequence": 506,
+      "delay_ms": 158400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 507,
+      "delay_ms": 159953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 508,
+      "delay_ms": 160013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 509,
+      "delay_ms": 160014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 510,
+      "delay_ms": 160020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 511,
+      "delay_ms": 160021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 512,
+      "delay_ms": 160103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 513,
+      "delay_ms": 160148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 514,
+      "delay_ms": 160154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 515,
+      "delay_ms": 160155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 516,
+      "delay_ms": 160200000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 517,
+      "delay_ms": 161753000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 518,
+      "delay_ms": 161813000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 519,
+      "delay_ms": 161814000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 520,
+      "delay_ms": 161820000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 521,
+      "delay_ms": 161821000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 522,
+      "delay_ms": 161903000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 523,
+      "delay_ms": 161948000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 524,
+      "delay_ms": 161954000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 525,
+      "delay_ms": 161955000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "50",
+      "sequence": 526,
+      "delay_ms": 162000000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 527,
+      "delay_ms": 163553000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 528,
+      "delay_ms": 163613000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 529,
+      "delay_ms": 163614000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 530,
+      "delay_ms": 163620000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 531,
+      "delay_ms": 163621000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 532,
+      "delay_ms": 163703000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 533,
+      "delay_ms": 163748000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 534,
+      "delay_ms": 163754000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 535,
+      "delay_ms": 163755000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "20",
+      "sequence": 536,
+      "delay_ms": 163800000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 537,
+      "delay_ms": 165353000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 538,
+      "delay_ms": 165413000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 539,
+      "delay_ms": 165414000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 540,
+      "delay_ms": 165420000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 541,
+      "delay_ms": 165421000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 542,
+      "delay_ms": 165503000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 543,
+      "delay_ms": 165548000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 544,
+      "delay_ms": 165554000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 545,
+      "delay_ms": 165555000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "10",
+      "sequence": 546,
+      "delay_ms": 165600000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 547,
+      "delay_ms": 167153000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 548,
+      "delay_ms": 167213000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 549,
+      "delay_ms": 167214000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 550,
+      "delay_ms": 167220000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 551,
+      "delay_ms": 167221000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 552,
+      "delay_ms": 167303000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 553,
+      "delay_ms": 167348000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 554,
+      "delay_ms": 167354000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 555,
+      "delay_ms": 167355000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 556,
+      "delay_ms": 167400000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 557,
+      "delay_ms": 168953000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 558,
+      "delay_ms": 169013000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 559,
+      "delay_ms": 169014000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 560,
+      "delay_ms": 169020000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 561,
+      "delay_ms": 169021000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 562,
+      "delay_ms": 169103000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 563,
+      "delay_ms": 169148000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 564,
+      "delay_ms": 169154000,
+      "relative": false
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 565,
+      "delay_ms": 169155000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 566,
+      "delay_ms": 169200000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "500",
+      "sequence": 567,
+      "delay_ms": 205140000,
+      "relative": false
+    }
+  ],
+  "protocols": [
+    {
+      "id": "fsfmp",
+      "analysis": "fsfmp",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "f0fm",
+      "analysis": "f0fm",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "f0p",
+      "analysis": "f0p",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "fmpp",
+      "analysis": "fmpp",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "f0pp",
+      "analysis": "f0pp",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "number": -1,
+      "relative": true,
+      "delay_ms": 0
+    },
+    {
+      "number": 1,
+      "relative": false,
+      "delay_ms": 21660000
+    },
+    {
+      "number": 2,
+      "relative": false,
+      "delay_ms": 82800001
+    },
+    {
+      "number": 3,
+      "relative": false,
+      "delay_ms": 169200001
+    }
+  ]
+}

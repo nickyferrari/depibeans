@@ -1,0 +1,128 @@
+{
+  "schema": "depibeans.experiment-plan/1",
+  "name": "NPQ acceptance \u00b7 five-minute actinic \u00b7 500 units",
+  "execution": {
+    "capture_failure": "stop",
+    "on_stop_light": 0
+  },
+  "protocols": [
+    {
+      "id": "background",
+      "analysis": "background",
+      "measurement_type": "background",
+      "group": "*",
+      "sensors": [
+        "*"
+      ],
+      "fields": {
+        "NumberLoops": "1",
+        "FramesPerLoop": "10",
+        "MeasuringLight": "0",
+        "SaturationFlash": "0",
+        "AuxFastSwitch": "0",
+        "Exposure": "50us",
+        "FrameInterval": "95ms",
+        "ActinicShutter": "1"
+      }
+    },
+    {
+      "id": "dark-reference",
+      "analysis": "dark-reference",
+      "measurement_type": "dark-reference",
+      "group": "*",
+      "sensors": [
+        "*"
+      ],
+      "fields": {
+        "NumberLoops": "2",
+        "FramesPerLoop": "10,10",
+        "MeasuringLight": "1",
+        "SaturationFlash": "0,1",
+        "AuxFastSwitch": "0",
+        "Exposure": "50us",
+        "FrameInterval": "95ms",
+        "ActinicShutter": "1"
+      }
+    },
+    {
+      "id": "light-adapted",
+      "analysis": "light-adapted",
+      "measurement_type": "light-adapted",
+      "group": "*",
+      "sensors": [
+        "*"
+      ],
+      "fields": {
+        "NumberLoops": "2",
+        "FramesPerLoop": "10,10",
+        "MeasuringLight": "1",
+        "SaturationFlash": "0,1",
+        "AuxFastSwitch": "0",
+        "Exposure": "50us",
+        "FrameInterval": "95ms",
+        "ActinicShutter": "1"
+      }
+    }
+  ],
+  "events": [
+    {
+      "kind": "set",
+      "relative": true,
+      "delay_ms": 0,
+      "sequence": 0,
+      "command": "intensity",
+      "value": "0"
+    },
+    {
+      "kind": "capture",
+      "relative": true,
+      "delay_ms": 30000,
+      "sequence": 1,
+      "protocol": "background"
+    },
+    {
+      "kind": "capture",
+      "relative": true,
+      "delay_ms": 75000,
+      "sequence": 2,
+      "protocol": "dark-reference"
+    },
+    {
+      "kind": "set",
+      "relative": true,
+      "delay_ms": 100000,
+      "sequence": 3,
+      "command": "intensity",
+      "value": "500"
+    },
+    {
+      "kind": "capture",
+      "relative": true,
+      "delay_ms": 200000,
+      "sequence": 4,
+      "protocol": "light-adapted"
+    },
+    {
+      "kind": "capture",
+      "relative": true,
+      "delay_ms": 300000,
+      "sequence": 5,
+      "protocol": "light-adapted"
+    },
+    {
+      "kind": "capture",
+      "relative": true,
+      "delay_ms": 385000,
+      "sequence": 6,
+      "protocol": "light-adapted"
+    },
+    {
+      "kind": "set",
+      "relative": true,
+      "delay_ms": 400000,
+      "sequence": 7,
+      "command": "intensity",
+      "value": "0"
+    }
+  ]
+}

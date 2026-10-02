@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Source modules for the DEPI experiment editor. Bundled into ../dist/app.js by tools/build_ui.py."
+}

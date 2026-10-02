@@ -1,0 +1,308 @@
+{
+  "schema": "depibeans.experiment-plan/1",
+  "name": "IceMan_(2020-09-17T13.38.29GMT-0400)",
+  "hardware_execution_authorized": false,
+  "events": [
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 0,
+      "delay_ms": 0,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 1,
+      "delay_ms": 79200000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 2,
+      "delay_ms": 108000000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 3,
+      "delay_ms": 165600000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 4,
+      "delay_ms": 194400000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 5,
+      "delay_ms": 252000000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 6,
+      "delay_ms": 280800000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 7,
+      "delay_ms": 338400000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 8,
+      "delay_ms": 367200000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 9,
+      "delay_ms": 424800000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 10,
+      "delay_ms": 453600000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 11,
+      "delay_ms": 511200000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 12,
+      "delay_ms": 540000000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 13,
+      "delay_ms": 597600000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 14,
+      "delay_ms": 626400000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 15,
+      "delay_ms": 684000000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 16,
+      "delay_ms": 712800000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 17,
+      "delay_ms": 770400000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 18,
+      "delay_ms": 799200000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 19,
+      "delay_ms": 856800000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 20,
+      "delay_ms": 885600000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 21,
+      "delay_ms": 943200000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 22,
+      "delay_ms": 972000000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 23,
+      "delay_ms": 1029600000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 24,
+      "delay_ms": 1058400000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 25,
+      "delay_ms": 1116000000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 26,
+      "delay_ms": 1144800000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 27,
+      "delay_ms": 1202400000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 28,
+      "delay_ms": 1231200000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 29,
+      "delay_ms": 1288800000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 30,
+      "delay_ms": 1317600000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 31,
+      "delay_ms": 1375200000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 32,
+      "delay_ms": 1404000000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 33,
+      "delay_ms": 1461600000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "100",
+      "sequence": 34,
+      "delay_ms": 1490400000,
+      "relative": false
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 35,
+      "delay_ms": 1548000000,
+      "relative": false
+    }
+  ],
+  "protocols": [],
+  "sections": [
+    {
+      "number": -1,
+      "relative": true,
+      "delay_ms": 0
+    },
+    {
+      "number": 0,
+      "relative": false,
+      "delay_ms": 79200000
+    }
+  ]
+}

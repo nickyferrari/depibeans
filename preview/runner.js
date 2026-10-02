@@ -1,0 +1,1 @@
+document.getElementById("verify-suite").onclick=async()=>{const out=document.getElementById("verify-results");try{out.textContent=JSON.stringify(await (await import("/__ui-test.js")).run(),null,2)}catch(e){out.textContent=e.stack}};

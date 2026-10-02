@@ -1,0 +1,91 @@
+{
+  "name": "Enterprise / CAAPP_COLD_FR Linux replacement",
+  "commissioned": false,
+  "device_name": "Nexys2",
+  "expected_clock_hz": 50000000,
+  "initial_mask": 35,
+  "limits": {
+    "intensity": [
+      0,
+      155
+    ]
+  },
+  "pins": {
+    "fast": 5,
+    "aux": 17,
+    "saturation": 4,
+    "measuring": [
+      6,
+      21,
+      22,
+      23
+    ],
+    "cameras": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "camera": {
+    "serial": "00-0000A-00000",
+    "transport_path": "/home/chamber/DepiBeans/vendor/VimbaX_2026-2/cti/VimbaGigETL.cti",
+    "width": 1936,
+    "height": 1456,
+    "packet_size": 1500,
+    "pre": "35us",
+    "post": "35us",
+    "dead_time": "0.0000025ms",
+    "stream_bytes_per_second": 5000000,
+    "gain": 12,
+    "preview_protocol": {
+      "NumberLoops": "1",
+      "FramesPerLoop": "1",
+      "MeasuringLight": "1",
+      "SaturationFlash": "0",
+      "AuxFastSwitch": "0",
+      "Exposure": "50us",
+      "FrameInterval": "70ms",
+      "ActinicShutter": "0"
+    },
+    "measuring_burst": {
+      "fields": {
+        "NumberLoops": "1",
+        "FramesPerLoop": "10",
+        "MeasuringLight": "1",
+        "SaturationFlash": "0",
+        "AuxFastSwitch": "0",
+        "Exposure": "50us",
+        "FrameInterval": "95ms",
+        "ActinicShutter": "1"
+      },
+      "stream_bytes_per_second": 65000000,
+      "gain": 12,
+      "evidence": "npq-20260917-120211, completed measuring-only 10-frame acquisition"
+    }
+  },
+  "note": "Main light 0 and 155 physically observed; single measuring snapshot verified 2026-09-15. Full research protocols remain uncommissioned. Main gate stays on; aux gate stays off. Camera settings restore after acquisition.",
+  "verified_controls": {
+    "main_light": true,
+    "snapshot": true,
+    "live_view": true,
+    "measuring_burst": true
+  },
+  "experiment_execution": {
+    "enabled": true,
+    "limits": {
+      "intensity": [
+        0,
+        500
+      ]
+    },
+    "prepare_s": 30,
+    "cleanup_s": 10,
+    "max_frames": 100,
+    "max_capture_s": 30,
+    "min_interval_s": 0.095,
+    "physical_acceptance": "Pending operator testing of the integrated executor; 500 controller-unit actinic and acquisition sequence previously observed in the standalone NPQ run."
+  }
+}

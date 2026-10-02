@@ -1,0 +1,491 @@
+{
+  "schema": "depibeans.experiment-plan/1",
+  "name": "Enterprise_(2024-11-13T19.42.12GMT-0500)",
+  "hardware_execution_authorized": false,
+  "events": [
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "500",
+      "sequence": 0,
+      "delay_ms": 1,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 1,
+      "delay_ms": 1000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 2,
+      "delay_ms": 61000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 3,
+      "delay_ms": 61002,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0fm",
+      "analysis": "f0fm",
+      "sequence": 4,
+      "delay_ms": 1261000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "50",
+      "sequence": 5,
+      "delay_ms": 1321000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 6,
+      "delay_ms": 1921000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 7,
+      "delay_ms": 1951000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 8,
+      "delay_ms": 1981000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 9,
+      "delay_ms": 2011000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "2000",
+      "sequence": 10,
+      "delay_ms": 2041000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 11,
+      "delay_ms": 2046000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 12,
+      "delay_ms": 2061000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 13,
+      "delay_ms": 2076000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 14,
+      "delay_ms": 2091000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 15,
+      "delay_ms": 2106000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 16,
+      "delay_ms": 2121000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 17,
+      "delay_ms": 2136000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 18,
+      "delay_ms": 2151000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 19,
+      "delay_ms": 2166000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 20,
+      "delay_ms": 2181000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "50",
+      "sequence": 21,
+      "delay_ms": 2196000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 22,
+      "delay_ms": 2201000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 23,
+      "delay_ms": 2216000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 24,
+      "delay_ms": 2231000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 25,
+      "delay_ms": 2246000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 26,
+      "delay_ms": 2261000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 27,
+      "delay_ms": 2291000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 28,
+      "delay_ms": 2321000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 29,
+      "delay_ms": 2351000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 30,
+      "delay_ms": 2381000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 31,
+      "delay_ms": 2411000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 32,
+      "delay_ms": 2441000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 33,
+      "delay_ms": 2501000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 34,
+      "delay_ms": 2561000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 35,
+      "delay_ms": 2621000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 36,
+      "delay_ms": 2681000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 37,
+      "delay_ms": 2741000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 38,
+      "delay_ms": 2801000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 39,
+      "delay_ms": 2816000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 40,
+      "delay_ms": 2817000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 41,
+      "delay_ms": 2823000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 42,
+      "delay_ms": 2823001,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "500",
+      "sequence": 43,
+      "delay_ms": 2943000,
+      "relative": true
+    }
+  ],
+  "protocols": [
+    {
+      "id": "fsfmp",
+      "analysis": "fsfmp",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "f0fm",
+      "analysis": "f0fm",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "f0p",
+      "analysis": "f0p",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "number": -1,
+      "relative": true,
+      "delay_ms": 0
+    },
+    {
+      "number": 1,
+      "relative": true,
+      "delay_ms": 61001
+    }
+  ]
+}

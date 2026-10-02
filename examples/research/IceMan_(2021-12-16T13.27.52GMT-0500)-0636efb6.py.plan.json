@@ -1,0 +1,315 @@
+{
+  "schema": "depibeans.experiment-plan/1",
+  "name": "IceMan_(2021-12-16T13.27.52GMT-0500)",
+  "hardware_execution_authorized": false,
+  "events": [
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 0,
+      "delay_ms": 1,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0fm",
+      "analysis": "f0fm",
+      "sequence": 1,
+      "delay_ms": 1200000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "50",
+      "sequence": 2,
+      "delay_ms": 1260000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fsfmp",
+      "analysis": "fsfmp",
+      "sequence": 3,
+      "delay_ms": 1740000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "0",
+      "sequence": 4,
+      "delay_ms": 1800000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 5,
+      "delay_ms": 1801000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 6,
+      "delay_ms": 1807000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0p",
+      "analysis": "f0p",
+      "sequence": 7,
+      "delay_ms": 1808000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "fmpp",
+      "analysis": "fmpp",
+      "sequence": 8,
+      "delay_ms": 1890000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "1000",
+      "sequence": 9,
+      "delay_ms": 1935000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "FR",
+      "value": "0",
+      "sequence": 10,
+      "delay_ms": 1941000,
+      "relative": true
+    },
+    {
+      "kind": "capture",
+      "protocol": "f0pp",
+      "analysis": "f0pp",
+      "sequence": 11,
+      "delay_ms": 1942000,
+      "relative": true
+    },
+    {
+      "kind": "set",
+      "command": "intensity",
+      "value": "50",
+      "sequence": 12,
+      "delay_ms": 1987000,
+      "relative": true
+    }
+  ],
+  "protocols": [
+    {
+      "id": "f0fm",
+      "analysis": "f0fm",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms",
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "fsfmp",
+      "analysis": "fsfmp",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "f0p",
+      "analysis": "f0p",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "fmpp",
+      "analysis": "fmpp",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    },
+    {
+      "id": "f0pp",
+      "analysis": "f0pp",
+      "fields": {
+        "NumberLoops": 6,
+        "FramesPerLoop": [
+          5
+        ],
+        "MeasuringLight": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "SaturationFlash": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Exposure": [
+          "50us"
+        ],
+        "FrameInterval": [
+          "70ms"
+        ]
+      },
+      "group": "*",
+      "sensors": [
+        "*"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "relative": true,
+      "delay_ms": 0
+    }
+  ]
+}

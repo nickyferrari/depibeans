@@ -1,0 +1,20 @@
+{
+  "name": "Enterprise / CAAPP_COLD_FR Linux replacement",
+  "commissioned": false,
+  "device_name": null,
+  "expected_clock_hz": 50000000,
+  "initial_mask": 131104,
+  "limits": {},
+  "pins": {"fast":5,"aux":17,"saturation":4,"measuring":[6,21,22,23],"cameras":[7,8,9,10,11,12]},
+  "camera": {
+    "serial": "00-0000A-00000",
+    "transport_path": "/home/chamber/DepiBeans/vendor/VimbaX_2026-2/cti/VimbaGigETL.cti",
+    "width": 1936,
+    "height": 1456,
+    "packet_size": 8999,
+    "pre": "35us",
+    "post": "35us",
+    "dead_time": "0.0000025ms"
+  },
+  "note": "Saved settings and source-derived defaults, not physical commissioning. Confirm firmware, pins, camera identity/features/NIC MTU and operating limits before enabling."
+}

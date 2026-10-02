@@ -1,0 +1,19 @@
+{
+  "targets": [
+    {
+      "host": "chamber-controller",
+      "options": [
+        "-F",
+        "/absolute/path/to/ssh-config",
+        "-o",
+        "BatchMode=yes"
+      ],
+      "root": "/home/chamber/DepiBeans/releases/current",
+      "releases": "/home/chamber/DepiBeans/web-releases",
+      "files": {
+        "depibeans/ui/dist/style.css": "depibeans/ui/dist/style.css",
+        "depibeans/ui/dist/app.js": "depibeans/ui/dist/app.js"
+      }
+    }
+  ]
+}

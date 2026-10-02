@@ -1,0 +1,44 @@
+{
+  "name": "DEPI 04 BioChamber lighting only",
+  "chamber": "DEPI 4",
+  "chamber_id": "depi-five",
+  "commissioned": false,
+  "device_name": "Nexys2",
+  "expected_clock_hz": 50000000,
+  "initial_mask": 35,
+  "limits": {
+    "intensity": [
+      0,
+      100
+    ]
+  },
+  "pins": {
+    "fast": 5,
+    "aux": 17,
+    "saturation": 4,
+    "measuring": [
+      6,
+      21,
+      22,
+      23
+    ],
+    "cameras": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "camera": {
+    "transport_path": "/home/chamber/DepiBeans/vendor/VimbaX_2026-2/cti/VimbaGigETL.cti"
+  },
+  "verified_controls": {
+    "main_light": true
+  },
+  "experiment_execution": {
+    "enabled": false
+  },
+  "note": "Operator confirms DEPI 01 light wiring equivalence on 2026-09-22. Nexys2 clock 50 MHz and idle 0x09 verified. Main-light commissioning at 0 and 100 authorized; physical output observation pending. No camera installed. Research execution disabled."
+}
